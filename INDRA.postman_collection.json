@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "5447d4a1-23b7-4d7c-96d4-0c675b7081ca",
+		"name": "INDRA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4198527"
+	},
+	"item": [
+		{
+			"name": "Realizar tipo de cambio",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"monto\": 50,\r\n\t\"monedaOrigen\": \"SOL\",\r\n\t\"monedaDestino\": \"DOLAR\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/montos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"montos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
